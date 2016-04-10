@@ -1,0 +1,24 @@
+{
+  "author" : "Hamed Bahrami",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "control shift r",
+      "name" : "Save as slideshow",
+      "identifier" : "slideshow.save"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "slideshow.save"
+    ],
+    "title" : "Slideshow"
+  },
+  "identifier" : "com.example.sketch.095d54b6-5a67-47ff-9751-9bdb1e718e34",
+  "version" : "0.1",
+  "description" : "(Proof of Concept) Create fantastic Slideshow right out of sketch",
+  "authorEmail" : "email@hamedbahrami.de",
+  "name" : "Slideshow",
+  "disableCocoaScriptPreprocessor": true
+}

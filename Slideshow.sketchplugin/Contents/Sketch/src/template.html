@@ -1,0 +1,22 @@
+<html>
+    <head>
+    	<link rel="stylesheet" href="https://raw.githubusercontent.com/hakimel/reveal.js/master/css/reveal.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                {{#artboards}}
+                	<section data-background="#{{background}}">
+                		{{#layers}}
+                			<span style="{{style}}">{{value}}</span>
+                		{{/layers}}
+                	</section>
+                {{/artboards}}
+            </div>
+        </div>
+        <script src="https://raw.githubusercontent.com/hakimel/reveal.js/master/js/reveal.js"></script>
+        <script>
+            Reveal.initialize();
+        </script>
+    </body>
+</html>
