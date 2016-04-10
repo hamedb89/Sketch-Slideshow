@@ -5,4 +5,4 @@ So i was inspired to create this simple slideshow export right out of sketch.
 
 This already works with the an artboard and one headline in it. So feel free to hack along!
 
-* WIP Only works in Sketch Beta for now *
+**WIP Only works in Sketch Beta for now**
